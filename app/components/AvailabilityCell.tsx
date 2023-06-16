@@ -37,7 +37,7 @@ export default function AvailabilityCell({ cellData }: AvailabilityCellProps) {
       };
       // console.log("body:", body);
 
-      const response = await fetch("http://localhost:3000/api/availability", {
+      const response = await fetch("/api/availability", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

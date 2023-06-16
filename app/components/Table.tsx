@@ -14,7 +14,7 @@ export default function Table() {
       setIsLoading(true);
       setIsError(false);
       try {
-        const response = await fetch("http://localhost:3000/api/availability");
+        const response = await fetch("/api/availability");
         // console.log("response:", response);
         const responseJson = await response.json();
         // console.log("responseJson:", responseJson);
