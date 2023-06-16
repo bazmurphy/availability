@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+.availability-button {
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  background-color: inherit;
+  padding: 2px 4px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.availability-button:hover {
+  background-color: hsl(0, 0%, 100%, 0.15);
+}
+
+.today {
+  /* background-color: hsl(265, 75%, 24%); */
+  /* background-color: hsl(240, 100%, 65%); */
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.available-yes {
+  background: linear-gradient(180deg, hsl(120, 100%, 15%), hsl(120, 100%, 8%));
+}
+
+.available-yes:hover {
+  background: linear-gradient(180deg, hsl(120, 100%, 25%), hsl(120, 100%, 16%));
+}
+
+.available-no {
+}
