@@ -16,17 +16,15 @@
 }
 
 .today {
-  /* background-color: hsl(265, 75%, 24%); */
-  /* background-color: hsl(240, 100%, 65%); */
-  background-color: hsla(0, 0%, 100%, 0.1);
+  border: 2px solid hsl(240, 80%, 75%);
 }
 
 .available-yes {
-  background: linear-gradient(180deg, hsl(120, 100%, 15%), hsl(120, 100%, 8%));
+  background: linear-gradient(180deg, hsl(120, 100%, 25%), hsl(120, 100%, 10%));
 }
 
 .available-yes:hover {
-  background: linear-gradient(180deg, hsl(120, 100%, 25%), hsl(120, 100%, 16%));
+  background: linear-gradient(180deg, hsl(120, 100%, 35%), hsl(120, 100%, 15%));
 }
 
 .available-no {
